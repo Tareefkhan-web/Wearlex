@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerence Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!---loader-->
+    <div id="loader">
+        <div class="loader-content">
+            <img src="logo-picture/logo1.png" class="loader-logo">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!---header section-->
+    <section id="header">
+        <a href="#"><img src="logo-picture/logo1.png" class="logo" alt="logo" /></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="basket-logo" class="active" href="cart.html"><i
+                            class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-circle-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a class="basket-logo" href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars-staggered"></i>
+        </div>
+    </section>
+
+    <!---hero section---->
+    <section id="page-header" class="cart-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & SAVE upto 70%</p>
+    </section>
+
+    <!----cart page section--->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-dot"></i></a></td>
+                    <td><img src="t-shirts/tshirt1.jpg" alt="tshirt"></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>9$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>9$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-dot"></i></a></td>
+                    <td><img src="t-shirts/tshirt3.png" alt="tshirt"></td>
+                    <td>Short Sleeve Button-Up</td>
+                    <td>9$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>9$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-dot"></i></a></td>
+                    <td><img src="t-shirts/tshirt4.png" alt="tshirt"></td>
+                    <td>Cherry Blosam Shirt</td>
+                    <td>9$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>9$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-dot"></i></a></td>
+                    <td><img src="t-shirts/tshirt6.png" alt="tshirt"></td>
+                    <td>Doble Layring Full sleeve</td>
+                    <td>9$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>9$</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!---cart_coupons---->
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input id="coup-inp" type="text" placeholder="Enter Your Coupon">
+                <button id="coupon_button" class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 9</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 9</strong></td>
+                </tr>
+            </table>
+            <button id="coupon_button1" class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <!----footer section------->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo-picture/logo.png " alt="logo" />
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>636 anarkali road,street 22 Pakistan</p>
+            <p><strong>Phone:</strong>+92 6666666 / (+92) 01227227</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="logo-picture/appstore.png" alt="app-store" />
+                <img src="logo-picture/googleplay.png" alt="google-play">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="logo-picture/payments.png" alt="payment" />
+        </div>
+
+        <div class="cpoy-right">
+            <p><i class="fa-regular fa-copyright"></i>2026,Tech2 etc - For Clothing website Wearlix</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
