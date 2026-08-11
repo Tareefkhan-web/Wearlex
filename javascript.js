@@ -1,19 +1,16 @@
-// Optimized Loader Code with Safety Fallback
-function hideLoader() {
+// Instant Loader Fix (Zero Delay)
+function removeLoaderNow() {
     const loader = document.getElementById("loader");
-    if (loader && loader.style.display !== "none") {
-        loader.style.opacity = "0";
-        setTimeout(() => {
-            loader.style.display = "none";
-        }, 500);
+    if (loader) {
+        loader.style.display = "none";
     }
 }
 
-// Event 1: Normal load event
-window.addEventListener("load", hideLoader);
+// 1. HTML 
+document.addEventListener("DOMContentLoaded", removeLoaderNow);
 
-// Event 2: Safety fallback (agar heavy files stuck ho jayein to max 3 sec baad hide kar dega)
-setTimeout(hideLoader, 3000);
+// 2. Fast Safety Fallback (Max 1 second)
+setTimeout(removeLoaderNow, 1000);
 
 
 // Responsiveness for mobile/ipad menu
