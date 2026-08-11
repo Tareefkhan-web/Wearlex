@@ -6,20 +6,20 @@ Wearlex is a modern, responsive, and minimalist e-commerce frontend designed for
 
 ## Key Features
 
-* **Responsive Layout:** Fully optimized across desktop, tablet, and mobile viewports.
-* **Interactive Shopping Cart:** Dynamic cart functionality with real-time updates and storage integration.
-* **Product Catalog:** Filterable and structured grid layouts for showcase items.
-* **Modern UI Elements:** Smooth loaders, interactive hover states, and dynamic modal overlays.
-* **Multi-Page Architecture:** Structured layouts for Shop, Product Details, Blog, About, and Contact pages.
+- **Responsive Layout:** Fully optimized across desktop, tablet, and mobile viewports.
+- **Interactive Shopping Cart:** Dynamic cart functionality with real-time updates and storage integration.
+- **Product Catalog:** Filterable and structured grid layouts for showcase items.
+- **Modern UI Elements:** Smooth loaders, interactive hover states, and dynamic modal overlays.
+- **Multi-Page Architecture:** Structured layouts for Shop, Product Details, Blog, About, and Contact pages.
 
 ---
 
 ## Tech Stack & Tools Used
 
-* **Frontend Languages:** HTML5, CSS3, JavaScript (ES6+)
-* **Styling & Icons:** Custom CSS (Flexbox, CSS Grid), Font Awesome / Remix Icons
-* **Development Tools:** VS Code (Visual Studio Code)
-* **Version Control & Hosting:** Git, GitHub, GitHub Pages
+- **Frontend Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Styling & Icons:** Custom CSS (Flexbox, CSS Grid), Font Awesome / Remix Icons
+- **Development Tools:** VS Code (Visual Studio Code)
+- **Version Control & Hosting:** Git, GitHub, GitHub Pages
 
 ---
 
@@ -33,7 +33,6 @@ Wearlex/
 ├── cart.html         # Shopping cart & checkout flow
 ├── about.html        # Brand story & identity
 ├── contact.html      # Contact form & location information
-├── css/
-│   └── style.css     # Main stylesheet with layout & utility classes
-└── js/
-    └── script.js     # Interactivity, cart logic, & loader controllers
+├── style.css         # Main stylesheet with layout & utility classes
+└── javascript.js     # Interactivity, cart logic, & loader controllers
+```
